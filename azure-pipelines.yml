@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'Space Game web-Release/testFeed'
+    publishVstsFeed: 'testFeed'
     allowPackageConflicts: true
   condition: succeeded()
